@@ -1,2 +1,1 @@
-# galeriaLibros
- 
+Galeria de libros
