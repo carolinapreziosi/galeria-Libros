@@ -1,0 +1,143 @@
+*{
+    width:100%;
+    height: auto;
+    margin:auto;
+    box-sizing: border-box; 
+}
+
+header{
+    background-color:#FFFFFF;
+    color:black;
+    text-align: center;
+    display: flex;
+}
+
+main {
+        width: 80%;
+        padding:4%;
+        text-align: center;
+}
+
+#listaDeLibros {
+    width:100%;
+    height: auto;
+    margin:auto;
+    box-sizing: border-box; 
+    background: white;
+}
+
+div  {
+    display: inline-block;
+    background-color: #073763;
+    width: 30%;
+    text-align: center;
+    margin:1%;
+}
+
+img {
+    width:50%;
+    height:50%;
+    border-radius: 15px;
+    margin:2%
+}
+
+h1, h2 {
+    width:30%;
+    height:30%;
+    text-align: center;
+    background-color: #F1C232;
+    color: #000001;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 7px 7px #073763;
+}
+
+h2:hover {
+    width:50%;
+    height:50%;
+    text-align: center;
+    background-color: #F1C232;
+    color: #000001;
+    border-radius: 15px;
+}
+
+h3,p {
+    color:#ffffff;
+    text-align: center;
+    padding: 3%;
+    font-size: 0.9vw; 
+}
+
+footer {
+    background-color: #F1C232;
+    color: #000001;
+    height: 50px;
+    box-shadow: 2px 2px 7px 7px #073763;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    
+    div {
+        display:block;
+        background-color: #073763;
+        width: 100%;
+        margin:1%;
+        text-align: center;
+    }
+    
+    img {
+        width:30%;
+        height:30%;
+        border-radius: 15px;
+        margin:2%
+    }
+    
+    h1,h2 {
+        font-size: 20px;
+    
+    }
+    h3 {
+        font-size: 13px; 
+    }
+    
+    p {
+        font-size: 10px;
+    }
+
+    #buscador {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+   
+}
+
+
+#buscador {
+    width:94%;
+    height: auto;
+    margin:0 auto; 
+    background: white;
+    border:2px solid #073763;
+}
+
+input {
+    width: 80%;
+    float: left;
+}
+button {
+    width:10%;
+    float: right;
+    background: #F1C232;
+}
+
+h5 {
+    width:94%;
+    height: auto;
+    margin-bottom: 3%;
+    background: white;
+    display: block;
+    text-align: left;
+    font-size:13px;
+}
+

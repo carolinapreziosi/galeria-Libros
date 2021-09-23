@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Gallery</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel = "icon" href="https://img.icons8.com/fluency-systems-filled/50/000000/book.png"/>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/476996d75a.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body onload="generateBooks()">
+
+<header>
+    <h1> Gallery </h1>
+</header>
+
+<main>
+<div id='buscador'> <!-- id "buscador lo uso como contenedor, no lo llamo en js"-->
+    <input  type="search" name="navegador" placeholder="Buscar...."id="inputFilter">
+    <button onclick="generateBooks()"> <i class="fas fa-ban" ></i></button>
+    <button onclick="filterBook()"><i class="fas fa-arrow-alt-circle-right" ></i></button>
+</div>
+<h5> *solo mayusculas</h5>
+
+<div id='listaDeLibros'>
+</div>     
+
+
+       <!--
+           OPCION HTML Y CSS - SIN FILTRADO 
+           
+        <div>
+            <h2> Book</h2>
+            <h3>The Code Of The Extraordinary Mind </h3>
+            <p>Vishen Lakhiani</p>
+            <img src="https://firebasestorage.googleapis.com/v0/b/fullstack-extraordinary.appspot.com/o/books%2Fthe-code-of-the-extraordinary-mind-3.png?alt=media&token=35295678-9534-4887-9310-eb0d722c052c" alt="The Code of the Extraordinary Mind">
+        </div>
+        <div>
+            <h2>Book</h2>
+            <h3>Outliers </h3>
+            <p>Malcolm Gladwell</p>
+            <img src="https://firebasestorage.googleapis.com/v0/b/fullstack-extraordinary.appspot.com/o/books%2FOutliers.png?alt=media&token=a5c1d4c8-4117-42d1-b1fd-b4ea76ca4ce8" alt="Outliers">
+        </div>
+        <div>
+            <h2>Book</h2>
+            <h3>Blink </h3>
+            <p>Malcolm Gladwel</p>
+            <img src="https://firebasestorage.googleapis.com/v0/b/fullstack-extraordinary.appspot.com/o/books%2Fblink.png?alt=media&token=cad9b311-878f-489b-ac26-018f57e665b2" alt="Blink ">
+        </div>
+        <div>
+            <h2>Book</h2>
+            <h3>Limitless</h3>
+            <p>Jim Kwik</p>
+            <img src="https://firebasestorage.googleapis.com/v0/b/fullstack-extraordinary.appspot.com/o/books%2FLimitless.png?alt=media&token=2c643e4f-721f-4caa-b6b1-0e8c3e8ae4a7" alt="Limitless">
+        </div>
+        <div>
+            <h2>Book</h2>
+            <h3>Flow </h3>
+            <p>Mihály Csikszentmihályi</p>
+            <img src="https://firebasestorage.googleapis.com/v0/b/fullstack-extraordinary.appspot.com/o/books%2Fflow.png?alt=media&token=b9ed45d9-bce4-4ce5-9cf1-12fc15470f6d" alt="Flow">
+        </div>
+        <div>
+            <h2> Book</h2>
+            <h3>The Code Of The Extraordinary Mind </h3>
+            <p>Vishen Lakhiani</p>
+            <img src="https://firebasestorage.googleapis.com/v0/b/fullstack-extraordinary.appspot.com/o/books%2Fthe-code-of-the-extraordinary-mind-3.png?alt=media&token=35295678-9534-4887-9310-eb0d722c052c" alt="The Code of the Extraordinary Mind">
+        </div>-->
+        
+    </main>
+<footer>
+    <h4>Carolina F.Preziosi</h4>
+</footer>
+    
+<script src="script.js"></script>
+</body>
+</html>
